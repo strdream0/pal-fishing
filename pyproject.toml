@@ -1,0 +1,18 @@
+[project]
+name = "pal-fishing"
+version = "0.1.0"
+description = "幻兽帕鲁钓鱼辅助 - 视觉识别"
+requires-python = ">=3.10"
+dependencies = [
+    "mss",
+    "opencv-python",
+    "numpy",
+    "pygetwindow",
+    "windows-capture>=2.0.0",
+    "pyside6>=6.11.1",
+    "pillow>=12.2.0",
+    "pyinstaller>=6.20.0",
+]
+
+[dependency-groups]
+dev = []

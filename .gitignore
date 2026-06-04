@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+logs/
+detect_output/
+analysis_output/
+debug/
+*.7z
+screenshots/*.png
