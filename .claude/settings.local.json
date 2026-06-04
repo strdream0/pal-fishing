@@ -10,7 +10,13 @@
       "Bash(D:/Users\\\\Administrator/.local/bin/uv.exe run *)",
       "Bash(D:/Users/Administrator/Desktop/diaoyu/.local/bin/uv.exe run *)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m '幻兽帕鲁钓鱼助手 - 初版 *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(git rm *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
