@@ -30,6 +30,18 @@ class MainWindow(QMainWindow):
         title.setFont(QFont("Microsoft YaHei", 11))
         title.setAlignment(Qt.AlignCenter)
         layout.addWidget(title)
+
+        link = QLabel('<a href="https://github.com/strdream0/pal-fishing">github.com/strdream0/pal-fishing</a>')
+        link.setAlignment(Qt.AlignCenter)
+        link.setOpenExternalLinks(True)
+        link.setStyleSheet("font-size: 9px;")
+        layout.addWidget(link)
+
+        qq = QLabel("QQ群: 162714267")
+        qq.setAlignment(Qt.AlignCenter)
+        qq.setStyleSheet("font-size: 9px; color: gray;")
+        layout.addWidget(qq)
+
         layout.addWidget(self._hr())
 
         self._status_label = QLabel("状态: 运行中")
