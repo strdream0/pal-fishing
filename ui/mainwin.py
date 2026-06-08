@@ -104,3 +104,5 @@ class MainWindow(QMainWindow):
             "color: #0f0; font-weight: bold;" if on else "color: gray;")
         self._btn_auto.setText(
             "关闭自动钓鱼 [F10]" if on else "开启自动钓鱼 [F10]")
+
+

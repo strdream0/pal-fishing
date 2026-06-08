@@ -10,3 +10,4 @@ debug/
 *.7z
 screenshots/*.png
 .claude/
+.gitignore
